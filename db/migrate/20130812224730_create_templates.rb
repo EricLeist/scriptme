@@ -1,7 +1,7 @@
 class CreateTemplates < ActiveRecord::Migration
   def change
     create_table :templates do |t|
-      t.array :items
+      t.string :items
       t.string :title
       t.string :description
 

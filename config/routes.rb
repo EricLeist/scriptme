@@ -1,4 +1,7 @@
 Scriptme::Application.routes.draw do
+  
+  root 'home#index'
+  
   resources :lists
 
   resources :templates
